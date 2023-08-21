@@ -1,6 +1,6 @@
 # Smart bearing condition monitoring service
 - phm-2012 dataset을 통해 학습한 인공지능 모델로 베어링 열화 모니터링 서비스를 구현, 스마트 팩토리 시스템 구현에 목표를 둔 프로젝트
-
+![service logo](image.png)
 
 
 ## Acknowledgement
