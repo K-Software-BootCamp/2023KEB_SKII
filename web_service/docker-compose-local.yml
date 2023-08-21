@@ -1,0 +1,36 @@
+version: "3.8"
+services:
+  db:
+    container_name: smartbearing-database
+    build:
+      dockerfile: Dockerfile
+      context: ./database
+    image: smartbaering-database
+    platform: linux/arm64
+    environment:
+      - MYSQL_DATABASE=smartbearing
+      - MYSQL_ROOT_PASSWORD=${DB_ROOT_PASSWORD}
+      - TZ=Asia/Seoul
+    volumes:
+      - ./database/config/mysql.cnf:/etc/mysql/my.cnf
+      - ./database/config:/etc/mysql/conf.d
+      - ./database/init:/docker-entrypoint-initdb.d
+      - /etc/localtime:/etc/localtime:ro
+    ports:
+      - "3306:3306"
+    command:
+      - --character-set-server=utf8mb4
+      - --collation-server=utf8mb4_unicode_ci
+    restart: always
+  redis:
+    container_name: smartbearing-redis
+    build:
+      dockerfile: Dockerfile
+      context: ./redis
+    image: smartbaering-redis
+    labels:
+      - "name=redis"
+      - "mode=standalone"
+    platform: linux/amd64
+    ports:
+      - "6380:6379"

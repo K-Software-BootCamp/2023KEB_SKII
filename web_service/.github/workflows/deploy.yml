@@ -1,0 +1,71 @@
+name: deploy-app
+on:
+  push:
+    branches: [ feat-#23_배포_설정 ]
+#    branches: [ main ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 저장소 Checkout
+        uses: actions/checkout@v3
+
+      # JDK setting - github actions에서 사용할 JDK 설정 (프로젝트나 AWS의 java 버전과 달라도 무방)
+      - name: Set up JDK 17
+        uses: actions/setup-java@v3
+        with:
+          java-version: '17'
+          distribution: 'adopt'
+
+      - name: yml 생성
+        run: |
+          touch application.yml # application.yml 생성
+          echo "${{ secrets.APPLICATION }}" | base64 --decode > ./src/main/resources/application.yml # secrets에 있는 APPLICATION 내용 덮어쓰기
+        shell: bash
+
+      - name: yml 파일 다운받을 수 있게 업로드
+        uses: actions/upload-artifact@v3.1.2
+        with:
+          name: application.yml
+          path: ./src/main/resources
+
+      - name: .env 생성
+        run: echo "${{ secrets.ENV }}" | base64 --decode > .env
+
+      # gradle build
+      - name: Build with Gradle
+        run: |
+          chmod +x ./gradlew # gradlew 실행 권한
+          ./gradlew build -x test # text 없이 build
+
+      - name: 도커 이미지 빌드
+        run: |
+          docker login -u ${{ secrets.DOCKER_USERNAME }} -p ${{ secrets.DOCKER_PASSWORD }}
+          docker build -t ${{ secrets.DOCKER_USERNAME }}/smartbearing-frontend -f src/main/frontend/Dockerfile .
+          docker build -t ${{ secrets.DOCKER_USERNAME }}/smartbearing-backend -f Dockerfile .
+
+      - name: Docker Hub 로그인
+        uses: docker/login-action@v2
+        with:
+          username: ${{ secrets.DOCKER_USERNAME }}
+          password: ${{ secrets.DOCKER_PASSWORD }}
+
+      - name: Docker Hub 퍼블리시
+        run: |
+          docker push ${{ secrets.DOCKER_USERNAME }}/smartbearing-frontend:latest
+          docker push ${{ secrets.DOCKER_USERNAME }}/smartbearing-backend:latest
+
+      - name: WAS 인스턴스 접속 및 애플리케이션 실행
+        uses: appleboy/ssh-action@v0.1.6
+        with:
+          host: ${{ secrets.EC2_SERVER_HOST }} # EC2 퍼블릭 IPv4 DNS
+          username: ${{ secrets.SERVER_USERNAME }} # OS의 기본 사용자 이름
+          key: ${{ secrets.EC2_KEY }} # EC2 pem
+          script: |
+            sudo docker rm -f $(docker ps -qa)
+            sudo docker pull ${{ secrets.DOCKER_USERNAME }}/smartbearing-frontend
+            sudo docker pull ${{ secrets.DOCKER_USERNAME }}/smartbearing-backend
+            echo "${{ secrets.DOCKER_COMPOSE_YML }}" | base64 --decode > docker-compose.yml
+            docker-compose -f docker-compose.yml up -d
+            docker image prune -f
