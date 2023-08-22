@@ -5,7 +5,7 @@
 <img width="1000" alt="스크린샷 2023-08-23 오전 3 53 04" src="https://github.com/SWTeam2/learning_infer/assets/139730231/2a3e5652-f73e-4970-b68d-8a74131a5ce1">
 <div/>
 
-## Service
+## 🧞‍♂️ Service
 
 - 센서 데이터의 실시간 수집과 모델의 예측 결과를 효과적으로 연동하는 시스템을 구현
  
@@ -14,7 +14,7 @@
 - 연구에 그치는 것이 아닌 현업에서 부품의 수명 주기 관리 및 안전성 향상을 위한 중요한 도구로 활용 가능한 서비스 개발 틀 배포
 
 
-## Directories
+## 📁 Directories
 1. [Data_preprocessing](Data_preprocessing)
     - 데이터셋의 증강 및 주파수 변환 기법 사용
 2. [DB_server](DB_server)
@@ -25,17 +25,16 @@
     - CI/CD 아키텍쳐
 
 
-## Usage(Guide)
+## 👩🏻‍💻 Usage(Guide)
 ```
 code or url
 ```
-## ERD
+## 📈 ERD
 ![usecase diagram](https://github.com/SWTeam2/learning_infer/assets/139730231/43820183-0401-41d8-ab88-b8ac5abe88f0)
 
-## Project Doc
+## 📄 Project Doc
 - notion
 - git repo
-
 
 ## Acknowledgement
 ```
