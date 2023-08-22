@@ -1,5 +1,5 @@
 # 💻 Smart bearing condition monitoring service
-- phm-2012 dataset을 통해 학습한 인공지능 모델로 베어링 열화 모니터링 서비스를 구현 및 스마트 팩토리 시스템 구현 프로젝트
+- phm-2012dataset을 통해 학습한 인공지능 모델로 베어링 열화 모니터링 서비스를 구현 및 스마트 팩토리 시스템 구현 프로젝트
 
 <div >
 <img width="1000" alt="스크린샷 2023-08-23 오전 3 53 04" src="https://github.com/SWTeam2/learning_infer/assets/139730231/2a3e5652-f73e-4970-b68d-8a74131a5ce1">
@@ -20,15 +20,19 @@
 2. [DB_server](DB_server)
     - MSA(Microservices Architecture)로 운영
 3. [modeling_inferServer](modeling_inferServer)
-    - cnn_lstm 모델 사용
+    - CNN-LSTM 모델 사용
 4. [web_service](web_service)
     - CI/CD 아키텍쳐
 
 
-## 👩🏻‍💻 Usage(Guide)
-```
-code or url
-```
+## 👩🏻‍💻 Member
+🤹🏻‍♂️ 모델링 : 김정호, 김찬영, 최병훈
+
+⚙️ 데이터 엔지니어링 : 박성부, 방가윤, 윤정우
+
+🖥 백엔드 & 프론트엔드 : 조희연, 김다은, 이낙규
+
+
 ## 📈 ERD
 ![usecase diagram](https://github.com/SWTeam2/learning_infer/assets/139730231/43820183-0401-41d8-ab88-b8ac5abe88f0)
 
