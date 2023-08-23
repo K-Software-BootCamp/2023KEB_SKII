@@ -25,14 +25,13 @@ https://github.com/K-Software-BootCamp/2023KEB_SKII/assets/76683835/c5b92833-71a
 ![MSA](https://github.com/K-Software-BootCamp/2023KEB_SKII/assets/127288729/07759fc0-bd4b-4831-9520-e05a55279c4f)
 
 ## 📁 Directories
-1. [Data_preprocessing](Data_preprocessing)
-    - 데이터셋의 증강 및 전처리 과정
-2. [DB_server](DB_server)
-    - DB 서버 구현 및 API 통신 
-3. [modeling_inferServer](modeling_inferServer)
-    - Neural network modeling 및 최적화, prediction 기능을 하는 서버 구축
-5. [web_service](web_service)
-   - Web 서비스에 필요한 서버 및 프론트 구현
+
+|Part| Development |
+| --- | ---|
+|[Data_preprocessing]()|데이터셋의 증강 및 전처리 과정|
+|[DB_server](https://github.com/K-Software-BootCamp/2023KEB_SKII/tree/main/DB_server)| DB 서버 구현 및 API 통신 |
+|[modeling_inferServer](https://github.com/K-Software-BootCamp/2023KEB_SKII/tree/main/modeling_inferServer)| Neural network modeling 및 최적화<br>prediction 기능을 하는 서버 구축|
+|[web_service](https://github.com/K-Software-BootCamp/2023KEB_SKII/tree/main/web_service)|Web 서비스에 필요한 서버 및 프론트 구현|
 
 
 ## 👥 Member
