@@ -15,7 +15,7 @@
 
 ## 📋 MSA structure
 
-![]()
+![MSA](https://github.com/K-Software-BootCamp/2023KEB_SKII/assets/127288729/07759fc0-bd4b-4831-9520-e05a55279c4f)
 
 ## 📁 Directories
 1. [Data_preprocessing](Data_preprocessing)
@@ -37,7 +37,6 @@
 
 ## 📋 Service Sequence
 
-![MSA](https://github.com/K-Software-BootCamp/2023KEB_SKII/assets/127288729/07759fc0-bd4b-4831-9520-e05a55279c4f)
 
 
 
