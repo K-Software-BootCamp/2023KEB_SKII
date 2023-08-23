@@ -25,7 +25,7 @@
 3. [modeling_inferServer](modeling_inferServer)
     - Neural network modeling 및 최적화, prediction 기능을 하는 서버 구축
 5. [web_service](web_service)
-    - Web 서비스에 필요한 서버 및 프론트 구현
+   - Web 서비스에 필요한 서버 및 프론트 구현
 
 
 ## 👥 Member
