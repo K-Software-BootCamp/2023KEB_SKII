@@ -45,7 +45,7 @@
 
 
 
-## 📈 ERD
+## 📈 Structure
 ![usecase diagram](https://github.com/SWTeam2/learning_infer/assets/139730231/43820183-0401-41d8-ab88-b8ac5abe88f0)
 
 ## 📄 Project Docs
