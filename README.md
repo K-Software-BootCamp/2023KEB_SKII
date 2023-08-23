@@ -7,7 +7,12 @@
 
 ## 🧞‍♂️ Service
 
-![대시보드 서비스 시연](https://github.com/K-Software-BootCamp/2023KEB_SKII/assets/76683835/6a0be0b1-fce6-4345-b2a1-6ce6a22fb9a2)
+![대시보드 서비스 시연영상](
+https://github.com/K-Software-BootCamp/2023KEB_SKII/assets/76683835/a2d6f7cc-a236-45e5-bfcd-93b501b6403a
+)
+![회원관리 시연영상](
+https://github.com/K-Software-BootCamp/2023KEB_SKII/assets/76683835/c5b92833-71ae-42db-9722-c50fcc8dcb32
+)
 
 - 센서 데이터의 실시간 수집과 모델의 예측 결과를 효과적으로 연동하는 시스템을 구현
  
