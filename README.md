@@ -1,4 +1,4 @@
-[화면설계서.pptx](https://github.com/K-Software-BootCamp/2023KEB_SKII/files/12416127/default.pptx)# 💻 Smart bearing condition monitoring service
+# 💻 Smart bearing condition monitoring service
 - phm-2012dataset을 통해 학습한 인공지능 모델로 베어링 열화 모니터링 서비스를 구현 및 스마트 팩토리 시스템 구현 프로젝트
 
 <div >
