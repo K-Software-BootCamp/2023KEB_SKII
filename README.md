@@ -37,7 +37,7 @@
 ![usecase diagram](https://github.com/SWTeam2/learning_infer/assets/139730231/43820183-0401-41d8-ab88-b8ac5abe88f0)
 
 ## 📄 Project Doc
-- notion
+- [notion](https://www.notion.so/choheeyeon/SK2-Smart-Bearing-af1f4c8346c049489b396224684dd3f5)
 - git repo
 
 ## Acknowledgement
