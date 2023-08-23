@@ -36,7 +36,12 @@
 🖥 백엔드 & 프론트엔드 : 조희연, 김다은, 이낙규
 
 ## 📋 Service Sequence
-
+### Bearing data work flow
+![sequence_bearing](https://github.com/K-Software-BootCamp/2023KEB_SKII/assets/127288729/455a41b6-0a8b-4a5e-a788-f8b6202c2e36)
+### Log in & out work flow
+![sequence_member](https://github.com/K-Software-BootCamp/2023KEB_SKII/assets/127288729/8e75028e-e94f-4ae9-8f9a-776f45f3e889)
+### Staff management
+### Notification
 
 
 
