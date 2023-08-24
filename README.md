@@ -45,6 +45,13 @@ https://github.com/K-Software-BootCamp/2023KEB_SKII/assets/76683835/c5b92833-71a
    - Web 서비스에 필요한 서버 및 프론트 구현
 <br><br>
 
+## 🤖 Model
+- CNN encoder
+![CNN encoder](https://github.com/K-Software-BootCamp/2023KEB_SKII/assets/76683835/4ac06e1a-2174-4248-aefe-32681a34803d)
+- CNN-LSTM model
+![CNN-LSTM model](https://github.com/K-Software-BootCamp/2023KEB_SKII/assets/76683835/3b356554-16e6-4894-9a2b-494ef07a3fed)
+<br><br>
+
 ## 📋 Service Sequence
 ### - Bearing data work flow
 ![sequence_bearing](https://github.com/chy0503/SmartBearing/blob/main/document/sequence/sequence_bearing.png)
