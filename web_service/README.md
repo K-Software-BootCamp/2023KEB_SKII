@@ -1,20 +1,13 @@
 # Smart Bearing Condition Monitoring Service
 
-## 💡 Project
-
-- 2023.07.26 - 2023.08.23
-- 스마트 팩토리 시스템 환경에서의 이상 탐지와 RUL 예측 서비스는 산업 분야에 혁명적인 변화를 가져오고 있습니다. 기계의 고장은 생산 라인 중단과 비용 증가로 이어질 수 있기 때문에, 기계의 상태를 모니터링하고
-  조기에 이상을 감지하며 필요한 유지보수를 수행하는 것이 매우 중요합니다. 이를 통해 생산성을 향상시키고 비용을 절감할 수 있습니다.
-  <br><br>
-
-## 👥 Member
-
-|                    김다은                     |                이낙규                 |                  조희연                   |
-|:------------------------------------------:|:----------------------------------:|:--------------------------------------:|
-|                     BE                     |              BE / FE               |                BE / FE                 |
-| [@DaeunKim9](https://github.com/DaeunKim9) | [@naku2](https://github.com/naku2) | [@chy0503](https://github.com/chy0503) |
-
-<br>
+<p align="center">
+<img width="700" src="document/web.png"/>
+</p>
+<br><br>
+<p align="center">
+<img width="700" src="document/CICD.png"/>
+</p>
+<br><br>
 
 ## 💻 Development Environment
 
@@ -44,29 +37,12 @@
 
 ### Team Tools
 
-<img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white"/> <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"/> <img src="https://img.shields.io/badge/gitkraken-%179287.svg?style=for-the-badge&logo=gitkraken&logoColor=white"/> <img src="https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white"/> <img src="https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white"/> <br><br>
-
-## ⚙️ Architecture
-
-<p align="center">
-<img width="700" src="document/web.png"/>
-</p>
-<br><br>
-<p align="center">
-<img width="700" src="document/CICD.png"/>
-</p>
+<img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white"/> <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"/> <img src="https://img.shields.io/badge/gitkraken-%179287.svg?style=for-the-badge&logo=gitkraken&logoColor=white"/> <img src="https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white"/> <img src="https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white"/>
 <br><br>
 
-[//]: # (## 📝 Function)
+## 👥 Member
 
-[//]: # ()
-
-[//]: # (<br><br>)
-
-[//]: # ()
-
-[//]: # (## 👉 Flow)
-
-[//]: # ()
-
-[//]: # (<br><br>)
+|                    김다은                     |                이낙규                 |                  조희연                   |
+|:------------------------------------------:|:----------------------------------:|:--------------------------------------:|
+|                     BE                     |              BE / FE               |                BE / FE                 |
+| [@DaeunKim9](https://github.com/DaeunKim9) | [@naku2](https://github.com/naku2) | [@chy0503](https://github.com/chy0503) |
