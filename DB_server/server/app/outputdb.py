@@ -8,7 +8,12 @@ def contact_raw_id(table, id):
     conn = connect_db(table)
     cur = conn.cursor()
     #SELECT * FROM public.learning_table_bearing1_1 WHERE csv_number IN (SELECT csv_number FROM public.learning_table_bearing1_1 WHERE id = 1);
-    query = f"SELECT * FROM public.{table} WHERE csv_number IN (SELECT csv_number FROM public.{table} WHERE id = {id})"
+    if id == 0:
+        print('0 route')
+        # query = f"SELECT * FROM public.{table}"
+    else:
+        print('non 0 route')
+        query = f"SELECT * FROM public.{table} WHERE csv_number IN (SELECT csv_number FROM public.{table} WHERE id = {id})"
 
     # SQL 쿼리 실행
     cur.execute(query)

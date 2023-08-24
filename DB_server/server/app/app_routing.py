@@ -38,6 +38,7 @@ async def run_fetch_and_insert_data(max_load_cnt, table, table_name):
         # Add a delay between iterations (e.g., 10 seconds)
         await asyncio.sleep(1)
 
+    
 @route.get("/data/{table}/{id}")
 async def get_data_request(table: str=None, id: int=None):
     try:
@@ -46,6 +47,14 @@ async def get_data_request(table: str=None, id: int=None):
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
+@route.get("/output/{table}/all")
+async def get_data_request(table: str=None):
+    try:
+        result = contact_pred_id(table, 0)
+        return result
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+    
 @route.get("/output/{table}/{pred_id}")
 async def get_data_request(table: str=None, pred_id: int=None):
     try:
@@ -53,7 +62,8 @@ async def get_data_request(table: str=None, pred_id: int=None):
         return result
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
-    
+
+
     
 @route.get("/request/{table}/all")
 async def send_infer_all(table: str = None, background_tasks: BackgroundTasks = BackgroundTasks()):
