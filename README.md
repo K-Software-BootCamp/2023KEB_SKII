@@ -4,7 +4,8 @@
 <div >
 <img width="1000" alt="스크린샷 2023-08-23 오전 3 53 04" src="https://github.com/SWTeam2/learning_infer/assets/139730231/2a3e5652-f73e-4970-b68d-8a74131a5ce1">
 <div/>
-
+<br>
+ 
 ## 🧞‍♂️ Service
 
 ![대시보드 서비스 시연영상](
@@ -15,14 +16,16 @@ https://github.com/K-Software-BootCamp/2023KEB_SKII/assets/76683835/c5b92833-71a
 )
 
 - 센서 데이터의 실시간 수집과 모델의 예측 결과를 효과적으로 연동하는 시스템을 구현
- 
+
 - CNN-LSTM 기법모델을 활용하여 Bearing의 상태 변화와 남은 수명 간의 패턴을 식별하고  예측하는 모델서비스을 구축 
  
 - 연구에 그치는 것이 아닌 현업에서 부품의 수명 주기 관리 및 안전성 향상을 위한 중요한 도구로 활용 가능한 서비스 개발 틀 배포
+<br><br>
 
 ## 📋 MSA structure
 
 ![MSA](https://github.com/K-Software-BootCamp/2023KEB_SKII/assets/127288729/07759fc0-bd4b-4831-9520-e05a55279c4f)
+<br><br>
 
 ## 📁 Directories
 1. [Data_preprocessing](Data_preprocessing)
@@ -33,7 +36,7 @@ https://github.com/K-Software-BootCamp/2023KEB_SKII/assets/76683835/c5b92833-71a
     - Neural network modeling 및 최적화, prediction 기능을 하는 서버 구축
 5. [web_service](https://github.com/K-Software-BootCamp/2023KEB_SKII/tree/main/web_service)
    - Web 서비스에 필요한 서버 및 프론트 구현
-
+<br><br>
 
 ## 👥 Member
 🤹🏻‍♂️ 모델링 : 김찬영, 최병훈
@@ -41,23 +44,33 @@ https://github.com/K-Software-BootCamp/2023KEB_SKII/assets/76683835/c5b92833-71a
 ⚙️ 데이터 엔지니어링 : 박성부, 방가윤, 김정호, 윤정우
 
 🖥 백엔드 & 프론트엔드 : 조희연, 김다은, 이낙규
+<br><br>
 
 ## 📋 Service Sequence
 ### - Bearing data work flow
-![sequence_bearing](https://github.com/K-Software-BootCamp/2023KEB_SKII/assets/127288729/455a41b6-0a8b-4a5e-a788-f8b6202c2e36)
+![sequence_bearing](https://github.com/chy0503/SmartBearing/blob/main/document/sequence/sequence_bearing.png)
+<br><br>
+
 ### - Log in & out work flow
-![sequence_member](https://github.com/K-Software-BootCamp/2023KEB_SKII/assets/127288729/8e75028e-e94f-4ae9-8f9a-776f45f3e889)
-### - Staff management
+![sequence_member](https://github.com/chy0503/SmartBearing/blob/main/document/sequence/sequence_member.png)
+<br><br>
+
+### - Employee
+![sequence employee](https://github.com/chy0503/SmartBearing/blob/main/document/sequence/sequence_employee.png)
+<br><br>
+
 ### - Notification
-
-
+<img src="https://github.com/chy0503/SmartBearing/blob/main/document/sequence/sequence_notification.png" alt="sequence notification" height="450">
+<br><br>
 
 ## 📈 Service Structure
 ![usecase diagram](https://github.com/SWTeam2/learning_infer/assets/139730231/43820183-0401-41d8-ab88-b8ac5abe88f0)
+<br><br>
 
 ## 📄 Project Docs
 - [notion link](https://www.notion.so/choheeyeon/SK2-Smart-Bearing-af1f4c8346c049489b396224684dd3f5)
 - [git repository](https://github.com/SWTeam2)
+<br><br>
 
 ## 🛠️ Tech Stack
 
@@ -86,7 +99,7 @@ https://github.com/K-Software-BootCamp/2023KEB_SKII/assets/76683835/c5b92833-71a
 
 ### Team Tools
 <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white"/> <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"/> <img src="https://img.shields.io/badge/gitkraken-%179287.svg?style=for-the-badge&logo=gitkraken&logoColor=white"/> <img src="https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white"/> <img src="https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white"/> <br><br>
-
+<br>
 
 ## Acknowledgement
 ```
