@@ -3,7 +3,7 @@ phm-2012dataset을 통해 학습한 인공지능 모델로 베어링 열화 모�
 <div >
 <img width="1000" alt="스크린샷 2023-08-23 오전 3 53 04" src="https://github.com/SWTeam2/learning_infer/assets/139730231/2a3e5652-f73e-4970-b68d-8a74131a5ce1">
 <div/>
-<br><br>
+<br>
 
 ## 💡 Project Introduce
 - 2023.07.26 - 2023.08.23
