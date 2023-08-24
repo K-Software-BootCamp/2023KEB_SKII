@@ -70,6 +70,11 @@ https://github.com/K-Software-BootCamp/2023KEB_SKII/assets/76683835/c5b92833-71a
 ![usecase diagram](https://github.com/SWTeam2/learning_infer/assets/139730231/43820183-0401-41d8-ab88-b8ac5abe88f0)
 <br><br>
 
+## ⚙️ CI/CD Architecture
+![ci/cd diagram](https://github.com/SWTeam2/SmartBearing/blob/main/document/CICD.png)
+<br><br>
+
+
 ## 📄 Project Docs
 - [notion link](https://www.notion.so/choheeyeon/SK2-Smart-Bearing-af1f4c8346c049489b396224684dd3f5)
 - [git repository](https://github.com/SWTeam2)
@@ -95,7 +100,6 @@ https://github.com/K-Software-BootCamp/2023KEB_SKII/assets/76683835/c5b92833-71a
 <img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white">
 <img src="https://img.shields.io/badge/scikitlearn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white">
 <img src="https://img.shields.io/badge/maplibre-396CB2?style=for-the-badge&logo=maplibre&logoColor=white">
-
 
 ### Server Infra
 <img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white"> <img src="https://img.shields.io/badge/Amazon EC2-FF9900?style=for-the-badge&logo=Amazon EC2&logoColor=white"> <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white"> <img src="https://img.shields.io/badge/GitHub Actions-2088FF?style=for-the-badge&logo=GitHub Actions&logoColor=white">
