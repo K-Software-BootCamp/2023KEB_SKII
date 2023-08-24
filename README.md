@@ -34,14 +34,19 @@ https://github.com/K-Software-BootCamp/2023KEB_SKII/assets/76683835/c5b92833-71a
 ![MSA](https://github.com/K-Software-BootCamp/2023KEB_SKII/assets/127288729/07759fc0-bd4b-4831-9520-e05a55279c4f)
 <br><br>
 
+## 📄 Project Docs
+- [Notion Link](https://www.notion.so/choheeyeon/SK2-Smart-Bearing-af1f4c8346c049489b396224684dd3f5)
+- [GitHub Organization](https://github.com/SWTeam2)
+<br><br>
+
 ## 📁 Directories
-1. [Data_preprocessing](Data_preprocessing)
+1. [Data_preprocessing](https://github.com/SWTeam2/Data_preprocessing)
     - 데이터셋의 증강 및 전처리 과정
-2. [DB_server](https://github.com/K-Software-BootCamp/2023KEB_SKII/tree/main/DB_server)
+2. [DB_server](https://github.com/SWTeam2/DB_server)
     - DB 서버 구현 및 API 통신 
-3. [modeling_inferServer](https://github.com/K-Software-BootCamp/2023KEB_SKII/tree/main/modeling_inferServer)
+3. [modeling_inferServer](https://github.com/SWTeam2/learning_infer)
     - Neural network modeling 및 최적화, prediction 기능을 하는 서버 구축
-5. [web_service](https://github.com/K-Software-BootCamp/2023KEB_SKII/tree/main/web_service)
+5. [web_service](https://github.com/SWTeam2/SmartBearing)
    - Web 서비스에 필요한 서버 및 프론트 구현
 <br><br>
 
@@ -63,7 +68,7 @@ https://github.com/K-Software-BootCamp/2023KEB_SKII/assets/76683835/c5b92833-71a
 
 ### - Employee
 ![sequence employee](https://github.com/chy0503/SmartBearing/blob/main/document/sequence/sequence_employee.png)
-<br><br>
+<br>
 
 ### - Notification
 <img src="https://github.com/chy0503/SmartBearing/blob/main/document/sequence/sequence_notification.png" alt="sequence notification" height="450">
@@ -75,12 +80,6 @@ https://github.com/K-Software-BootCamp/2023KEB_SKII/assets/76683835/c5b92833-71a
 
 ## ⚙️ CI/CD Architecture
 ![ci/cd diagram](https://github.com/SWTeam2/SmartBearing/blob/main/document/CICD.png)
-<br><br>
-
-
-## 📄 Project Docs
-- [notion link](https://www.notion.so/choheeyeon/SK2-Smart-Bearing-af1f4c8346c049489b396224684dd3f5)
-- [git repository](https://github.com/SWTeam2)
 <br><br>
 
 ## 🛠️ Tech Stack
