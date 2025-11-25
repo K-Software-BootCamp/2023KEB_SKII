@@ -45,9 +45,9 @@ data는 PHM2012(FEMTO) 데이터를 사용 (별도 경로)
 server는 이를 웹 서버로 실행하고 파일 in out 을 진행하기 위한 코드들 
 
 ![데이터 안에 넣는 구조](image.png)
-https://i4624.tk/sharing/tbUNwOayc 
 
-파일 다운로드는 이곳으로 
+데이터셋 다운로드
+<https://i4624.info/s/dPwSgXAwBWwWSN6>
 
 모든 환경은 우분투 20.04 에서 실행하고 있으며, 별도의 GPU는 요구하지 않습니다. 
 GPU가 없으므로 CPU 환경에 따라 시스템 자원 상태의 영향을 받을 수 있습니다. 
